@@ -60,7 +60,7 @@ The following features and functionality are available in the current SDK releas
 ##### How to find out the version of ewebrtc-sdk your Web App is using
 
 * Visit your Web App URL in Chrome
-* Go to a web page that uses Phone methods from ewebrtc-sdk library
+* Go to a web page that uses `Phone` methods from `ewebrtc-sdk` library
 * Right-click anywhere on the page. In the pop-up menu, click `Inspect`
 * In the DevTools window, click `Console`
 * In Console, type the command: `ATT.rtc.Phone.getPhone().getVersion()`. It should show `1.0.6`
