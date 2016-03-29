@@ -63,7 +63,7 @@ The following features and functionality are available in the current SDK releas
 * Go to a web page that uses `Phone` methods from `ewebrtc-sdk` library
 * Right-click anywhere on the page. In the pop-up menu, click `Inspect`
 * In the DevTools window, click `Console`
-* In Console, type the command: `ATT.rtc.Phone.getPhone().getVersion()`. It should show `1.0.6`
+* In Console, type the command: `ATT.rtc.Phone.getPhone().getVersion()`.
 
 ### Firefox
 
@@ -76,13 +76,11 @@ The following features will be added soon:
 * Firefox browser support
 * AT&T Mobile Number support
 
-# v1.0.6                                     
+# v1.0.8
 
-December 4, 2015
+March 28, 2016
 
-* **Fix:** `MediaStream.stop()` is deprecated and is removed in Chrome v47.
-* **Fix:** Hold-resume by caller followed by another hold resume by callee results in no media.
-* **Fix:** SDK failed to refresh session after it gets expired.
+* **Fix:** Remove domains other than `127.0.0.1` from domain CORS header.
 
 ## Known Issues
 
@@ -169,6 +167,14 @@ invitation rejected event.
 
 
 # Changelog
+
+## v1.0.6
+
+December 4, 2015
+
+* **Fix:** `MediaStream.stop()` is deprecated and is removed in Chrome v47.
+* **Fix:** Hold-resume by caller followed by another hold resume by callee results in no media.
+* **Fix:** SDK failed to refresh session after it gets expired.
 
 ## v1.0.4                                       
 

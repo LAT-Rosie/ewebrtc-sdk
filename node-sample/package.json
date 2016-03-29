@@ -31,12 +31,6 @@
 	"key_file": "sample.key",
 	"logs_dir": "logs",
 	"cors_domains": [
-		"your.test.com:9001",
-		"*.prod.com:9001",
-		"*.sandbox.myapp.com:9001",
-		"0.0.0.0:9001",
-		"localhost",
-		"localhost:9001",
 		"127.0.0.1:9001"
 	],
 	"default_api_env": "sandbox",
