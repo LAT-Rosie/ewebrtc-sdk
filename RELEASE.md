@@ -78,7 +78,7 @@ The following features will be added soon:
 
 # v1.0.8
 
-March 28, 2016
+March 29, 2016
 
 * **Fix:** Remove domains other than `127.0.0.1` from domain CORS header.
 
