@@ -32,27 +32,18 @@
 	"logs_dir": "logs",
 	"default_api_env": "sandbox",
 	"sandbox": {
-		"app_key": "<your-app-key>",
-		"app_secret": "<your-app-secret>",
-		"virtual_numbers_pool": [
-			"number1",
-			"number2",
-			"number3"
-		],
-		"ewebrtc_domain": "<your-ewebrtc-domain>"
-	},
-	"prod": {
-		"app_key": "<your-app-key>",
-		"app_secret": "<your-app-secret>",
+		"app_key": "dftlscnrrlgshjmmbztoskxxs3xlbzme",
+		"app_secret": "gbhajflonnnx9mwrke7nnkuukwfpfzpz",
 		"oauth_callback": "https://127.0.0.1:9001/oauth/callback",
 		"app_token_url": "https://127.0.0.1:9001/tokens",
-		"app_e911id_url": "https://127.0.0.1:9001/e911ids",
-		"virtual_numbers_pool": [
-			"number1",
-			"number2",
-			"number3"
-		],
-		"ewebrtc_domain": "<your-ewebrtc-domain>"
+		"ewebrtc_domain": "lat.care"
+	},
+	"prod": {
+		"app_key": "dftlscnrrlgshjmmbztoskxxs3xlbzme",
+		"app_secret": "gbhajflonnnx9mwrke7nnkuukwfpfzpz",
+		"oauth_callback": "https://127.0.0.1:9001/oauth/callback",
+		"app_token_url": "https://127.0.0.1:9001/tokens",
+		"ewebrtc_domain": "lat.care"
 	},
 	"dependencies": {
 		"att-dhs": "stable",
